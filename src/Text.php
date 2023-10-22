@@ -53,6 +53,24 @@ class Text{
         return $status;
     }
 
+    /**
+     * Remove blank space from the given string.
+     *
+     * @param  string  $value
+     * @return string
+     */
+    public function squish()
+    {
+        $this->string = preg_replace('~(\s|\x{3164})+~u', ' ', preg_replace('~^[\s\x{FEFF}]+|[\s\x{FEFF}]+$~u', '', $this->string));
+
+        return $this;
+    }
+
+    public function camel($separator = '_')
+    {
+        return lcfirst(str_replace($separator, '', ucwords($this->string, $separator)));
+    }
+
     public function getText(){
         return $this->string;
     }
