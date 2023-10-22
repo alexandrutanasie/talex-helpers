@@ -75,4 +75,9 @@ class Text{
         return $this->string;
     }
 
+
+   public function __toString()
+    {
+        return $this->string;
+    }
 }
