@@ -43,7 +43,7 @@ class Text{
         return $this;
     }
 
-    public function isMatchWith($text){
+    public function isEqualWith($text){
         $status = false;
         if(strcmp($this->string, $text) == 0)
         {
