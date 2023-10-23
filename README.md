@@ -1,11 +1,11 @@
 ## Installation
 
-To install Utils run the command:
+To install talex/helpers run the command:
 
-    composer require talex/utils
+    composer require talex/helpers
 
 ```php
-use  Talex\Utils\Text;
+use  Talex\Helpers\Text;
 $string = "example"
 $text = new Text($string);
 
