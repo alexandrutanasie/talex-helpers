@@ -1,11 +1,11 @@
 {
-    "name": "talex/utils",
+    "name": "talex/helpers",
     "description": "Useful classes for the project",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Talex\\Utils\\": "src/"
+            "Talex\\Helpers\\": "src/"
         }
     },
     "authors": [

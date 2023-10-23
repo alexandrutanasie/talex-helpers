@@ -1,5 +1,5 @@
 <?php
-namespace Talex\Utils;
+namespace Talex\Helpers;
 
 class Text{
     private $string;

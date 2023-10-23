@@ -1,5 +1,5 @@
 <?php
-namespace Talex\Utils;
+namespace Talex\Helpers;
 
 class Assets{
     private $css_files = [];
